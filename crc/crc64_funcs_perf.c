@@ -31,9 +31,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdint.h>
-#include <sys/time.h>
 #include "crc64.h"
 #include "test.h"
+#include "types.h"		// include posix_* definitions for MSVC
 
 //#define CACHED_TEST
 #ifdef CACHED_TEST
